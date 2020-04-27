@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.ruzzle.FXMLController">
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.ruzzle.FXMLController">
    <top>
       <ImageView fitHeight="150.0" fitWidth="192.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
          <image>
@@ -70,7 +70,7 @@
                         <Font size="21" />
                      </font>
                   </Button>
-                  <Button fx:id="let03" layoutX="110.0" layoutY="10.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="R" GridPane.columnIndex="3">
+                  <Button fx:id="let03" defaultButton="true" layoutX="110.0" layoutY="10.0" maxHeight="50.0" maxWidth="50.0" minHeight="50.0" minWidth="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="R" GridPane.columnIndex="3">
                      <font>
                         <Font size="21" />
                      </font>
